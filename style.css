@@ -1,9 +1,28 @@
 body {
     background-color: hsl(26, 66%, 93%);
+    height: 100vh;
 }
 
-.container.container.py-5 {
+.container.my-4{
     background-color: hsl(10, 79%, 65%);
     font-family: sans-serif;
     color:aliceblue; 
-}; 
+    border-radius: 16px;
+    max-height: 200px;
+    padding-top: 20px;
+  
+
+}
+.bar-wrapper{
+    align-items: right;
+
+}
+#logo{
+    width: 50px;
+    flex-shrink: 0;
+   align-items: center;
+}
+h6{
+    font-size: medium;
+}
+
