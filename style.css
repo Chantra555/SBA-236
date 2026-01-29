@@ -1,0 +1,9 @@
+body {
+    background-color: hsl(26, 66%, 93%);
+}
+
+.container.container.py-5 {
+    background-color: hsl(10, 79%, 65%);
+    font-family: sans-serif;
+    color:aliceblue; 
+}; 
