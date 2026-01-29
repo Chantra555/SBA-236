@@ -9,14 +9,14 @@ body {
     color:aliceblue; 
     border-radius: 16px;
     max-height: 200px;
-    padding-top: 20px;
+    padding: 1rem;
   
 
 }
 .bar-wrapper{
     align-items: right;
-
 }
+
 #logo{
     width: 50px;
     flex-shrink: 0;
@@ -25,4 +25,46 @@ body {
 h6{
     font-size: medium;
 }
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 16px;
+    text-align: left;
+    
+}
+
+
+.card-secondary {
+    background-color: #3a09e900;
+    padding: 1.5rem;
+}
+
+:root {
+  --terracotta: #ec755d;
+  --teal: #76b5bc;
+  --muted: #93867b;
+}
+
+
+.chart-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.bar {
+  width: 38px;
+  background-color: var(--terracotta);
+  border-radius: 6px;
+}
+
+.bar.active {
+  background-color: var(--teal);
+}
+
+.chart-col small {
+  color: var(--muted);
+}
+
 
